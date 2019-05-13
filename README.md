@@ -39,12 +39,12 @@ item_categories.csv的item_category_name分割成item_category_id、type_code和
 # add months since last sale/months since first sale features
 加入最後價格和最初價格為特徵
 
-##訓練
+## 訓練
 使用xgboost的XGBRegressor
 總共有39個特徵
 有些實驗是只挑選部分特徵來訓練
 
-#模型參數
+# 模型參數
 max_depth=8,
 n_estimators=1000,
 min_child_weight=300, 
@@ -53,7 +53,7 @@ subsample=0.8,
 eta=0.3,    
 seed=42
 
-##結果
+## 結果
 1.23646(以範例所得到)
 0.91300
 0.90646
