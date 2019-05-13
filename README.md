@@ -1,16 +1,16 @@
-##kaggle的Predict Future Sales
-#目標: 
+##kaggle的Predict Future Sales##
+#目標:# 
 predict total sales for every product and store in the next month
 
-##資料
+##資料##
 items.csv
 shops.csv
 item_categories.csv
 sales_train.csv
 test.csv
 
-##資料前處理
-#heal data and remove outliers
+##資料前處理##
+#heal data and remove outliers#
 sales_train.csv中的item_cnt_day和item_price有outliers，將其去除。
 item_price只取小於100000
 item_cnt_day只取小於1001
@@ -19,7 +19,7 @@ item_price有數據是負數，這是不合理的，所以用該商店該商品�
 
 有部分商店重複，所以將重複的商店統一命名。
 
-#work with shops/items/cats objects and features
+#work with shops/items/cats objects and features#
 
 
 
